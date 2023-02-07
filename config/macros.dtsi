@@ -1,3 +1,15 @@
+macro_she_said: macro_she_said{
+compatible = "zmk,behavior-macro";
+label = "macro_she_said";
+#binding-cells = <0>;
+bindings = <&kp COMMA>, <&kp DOUBLE_QUOTES>, <&kp SPACE>, <&kp S>, <&kp H>, <&kp E>, <&kp SPACE>, <&kp S>, <&kp A>, <&kp I>, <&kp D>, <&kp PERIOD>;
+};
+macro_he_said: macro_he_said{
+compatible = "zmk,behavior-macro";
+label = "macro_he_said";
+#binding-cells = <0>;
+bindings = <&kp COMMA>, <&kp DOUBLE_QUOTES>, <&kp SPACE>, <&kp H>, <&kp E>, <&kp SPACE>, <&kp S>, <&kp A>, <&kp I>, <&kp D>, <&kp PERIOD>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
